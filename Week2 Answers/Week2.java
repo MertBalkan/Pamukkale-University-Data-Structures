@@ -1,4 +1,5 @@
 import java.util.*;
+//Odevin son tarihi->18 Ekim. 
 
 /**
  * Islemler sınıfı içindeki 4 metodun yazılması istenmektedir
@@ -160,7 +161,6 @@ public class Islemler {
         for (int i = 0; i <girdi.length() ; i++) {
             char c = girdi.charAt(i);
 
-            //check if char is operator
             if(prec(c)>0){
                 while(stack.isEmpty()==false && prec(stack.peek())>=prec(c)){
                     result += stack.pop();
@@ -175,7 +175,7 @@ public class Islemler {
             }else if(c=='('){
                 stack.push(c);
             }else{
-                //character is neither operator nor ( 
+                ( 
                 result += c;
             }
         }
