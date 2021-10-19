@@ -17,3 +17,7 @@ Feel Free To Use!
 <ul><p>I added my Data Structers Lab answers</p></ul>
 </li>
 
+<h2> Lecturer Notes</h2>
+<li>
+<ul><p>In this section you guys can download our lecturer notes and check for it!</p></ul>
+</li>
