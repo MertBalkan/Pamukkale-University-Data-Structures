@@ -25,7 +25,16 @@ Feel Free To Use!
 
 <table style = "width = 100%">
 <tr>
-<td>A</td>
-<td>B</td>
+<td>
+<h2> Lecturer Notes</h2>
+<li>
+<ul><p>In this section you guys can download our lecturer notes and check for it!</p></ul>
+</li></td>
+<td>
+<h2> Lecturer Notes</h2>
+<li>
+<ul><p>In this section you guys can download our lecturer notes and check for it!</p></ul>
+</li>
+</td>
 </tr>
 </table>
