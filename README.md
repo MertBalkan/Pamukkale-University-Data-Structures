@@ -28,5 +28,24 @@ Feel Free To Use!
 <ul><p>I added my notes as a pictures or text type.</p></ul>
 </li>
 </td>
+</td>
+
+<td>
+<h2> Resources That I Use</h2>
+<p><I'll add more day-by-day/p>
+<li>
+<ul><p><a href = "https://www.cs.usfca.edu/~galles/visualization/AVLtree.html">GeekForGeeks</p></ul>
+<ul><p><a href = "https://www.youtube.com/c/Sadievrenseker_BK">Sadi Evren Seker</p></ul>
+<ul><p><a href = "https://www.cs.usfca.edu/~galles/visualization/AVLtree.html">Click Here For AVL Tree Practice</p></ul>
+</li>
+</td>
+
+<td>
+<h2> BONUS!</h2>
+<li>
+<ul><p><a href = https://open.spotify.com/playlist/5CiELE7uK156sTnp62A7jA?si=46b09cc7dcaf45f2">My Spotify List</p></ul>
+</li>
+</td>
+
 </tr>
 </table>
