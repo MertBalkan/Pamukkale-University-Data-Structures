@@ -36,13 +36,13 @@ public class LabBinarySearchTree<T extends Comparable<T>> extends BinarySearchTr
 
     @Override
     public BTNode<T> predecessor(T value) {
-        //still searching resources on internet
+        //still searching resources on internet.
         return null;
     }
 
     @Override
     public BTNode<T> findParent(BTNode<T> node) {
-        //still searching resources on internet
+        //still searching resources on internet.
         return null;
     }
 
