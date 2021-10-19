@@ -23,7 +23,9 @@ Feel Free To Use!
 </li>
 
 
+<table style = "width = 100%">
 <tr>
 <td>A</td>
 <td>B</td>
 </tr>
+</table>
