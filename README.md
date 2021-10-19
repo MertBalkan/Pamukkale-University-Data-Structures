@@ -9,7 +9,7 @@ Feel Free To Use!
 
 <h2> Notes </h2>
 <li>
-<ul><p>I added my notes for as a pictures or text type.</p></ul>
+<ul><p>I added my notes as a pictures or text type.</p></ul>
 </li>
 
 <h2> Answers </h2>
