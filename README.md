@@ -21,3 +21,9 @@ Feel Free To Use!
 <li>
 <ul><p>In this section you guys can download our lecturer notes and check for it!</p></ul>
 </li>
+
+
+<tr>
+<td>A</td>
+<td>B</td>
+</tr>
