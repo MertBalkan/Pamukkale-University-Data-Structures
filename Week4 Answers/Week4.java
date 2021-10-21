@@ -1,9 +1,9 @@
 public class LabBinarySearchTree<T extends Comparable<T>> extends BinarySearchTree<T> {
     public LabBinarySearchTree(){
-        //Bu metodu deÄŸiÅŸtirmeyin
+        //Bu metodu deðiþtirmeyin
     }
     public LabBinarySearchTree(BTNode<T> root) {
-        //Bu metodu deÄŸiÅŸtirmeyin
+        //Bu metodu deðiþtirmeyin
         super(root);
     }
 
@@ -36,15 +36,39 @@ public class LabBinarySearchTree<T extends Comparable<T>> extends BinarySearchTr
 
     @Override
     public BTNode<T> predecessor(T value) {
-        //still searching resources on internet.
-        return null;
+        BTNode<T> node = find(getRoot(), value);
+        if(node == null || node.left == null)
+            return null;
+        node = node.left;
+        while(node.right != null)
+            node = node.right;
+        return node;
     }
 
     @Override
     public BTNode<T> findParent(BTNode<T> node) {
-        //still searching resources on internet.
-        return null;
+        //WORK IN PROGRESS**************************
+        if(node == null) return null;
+        BTNode<T> kok = find(getRoot(), node.value);
+        
+                
+        if(kok == null) return null;
+        
+        if(kok.value.compareTo(node.value) < 0){
+            while(kok.right != null)
+            {
+                kok = kok.right;
+                findParent(kok);    
+            }
+        }else if(kok.value.compareTo(node.value) > 0){
+            while(kok.left != null){
+        
+                kok = kok.left;
+                findParent(kok);
+            }
+        }
+        return node;
+        
     }
-
 
 }
