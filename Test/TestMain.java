@@ -3,8 +3,8 @@ public class TestMain {
 
 	public static void main(String[] args) {
 		//here do your tests
-		//LinkedListTest();
-		TreeTest();
+		LinkedListTest();
+		//TreeTest();
 
 	}
 	
@@ -14,6 +14,7 @@ public class TestMain {
         LabDoublyLinkedList<Integer> myLinkedList = new LabDoublyLinkedList<>();
         	
         //INSERT AT
+        System.out.println("AFTER INSERT...");
         myLinkedList.insertAt(0, 6);
         myLinkedList.insertAt(0, 5);
         myLinkedList.insertAt(0, 4);
@@ -23,6 +24,7 @@ public class TestMain {
         myLinkedList.print();
 
         //REMOVE AT
+        System.out.println("AFTER REMOVE...");
         myLinkedList.removeAt(0);
         myLinkedList.removeAt(4);
         myLinkedList.removeAt(2);
