@@ -40,7 +40,7 @@ Feel Free To Use!
 <p>You can do ur test in here easily!</p></ul>
 </li>
 </td>
-</tr>
+
 <td>
 <h2> Resources That I Use</h2>
 <p>I'll add more day-by-day</p>
