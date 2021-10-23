@@ -1,6 +1,6 @@
 public class LabDoublyLinkedList<T> extends DoublyLinkedList<T> {
     /**
-     * Çift bağlı listenin istenilen konumuna eleman ekler
+     * Ã‡ift baÄŸlÄ± listenin istenilen konumuna eleman ekler
      * @param index konum
      * @param value eklenecek eleman
      */
@@ -19,7 +19,7 @@ public class LabDoublyLinkedList<T> extends DoublyLinkedList<T> {
                 current = current.next;
             }
             Node<T> yeni = new Node<>(value, current.next, current);
-            current.next.previous = yeni; // BURADA SIRA ONEMLİ
+            current.next.previous = yeni; // BURADA SIRA ONEMLÄ°
             current.next = yeni;
             setSize(size() + 1);
             
@@ -27,9 +27,9 @@ public class LabDoublyLinkedList<T> extends DoublyLinkedList<T> {
     }
 
     /**
-     * Verilen konumdaki elemanı siler
-     * @param index silinecek elemanın konumu
-     * @return silinen değer
+     * Verilen konumdaki elemanÄ± siler
+     * @param index silinecek elemanÄ±n konumu
+     * @return silinen deÄŸer
      */
     @Override
     public T removeAt(int index) {

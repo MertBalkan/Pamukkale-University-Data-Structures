@@ -44,8 +44,8 @@ public abstract class BinarySearchTree<T extends Comparable<T>> {
                 node.right=new BTNode<>(value, null, null);
             else
                 add(node.right, value);
-        }
-        else throw new RuntimeException("Eleman ağaçta mevcut!");
+        }  
+        //else throw new RuntimeException("Eleman ağaçta mevcut!");
     }
 
     @Override
