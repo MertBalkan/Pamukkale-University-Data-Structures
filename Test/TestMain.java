@@ -34,7 +34,6 @@ public class TestMain {
 	//WEEK 4
 	private static void TreeTest() {
 
-		LabBinarySearchTree<Integer> binaryTree = new LabBinarySearchTree<Integer>();
 
 		BTNode<Integer> n7 = new BTNode<Integer>(25, null, null);
 		BTNode<Integer> n8 = new BTNode<Integer>(40, null, null);
@@ -46,7 +45,9 @@ public class TestMain {
 		BTNode<Integer> n2 = new BTNode<Integer>(45, n5, n6);
 		
 		BTNode<Integer> root = new BTNode<Integer>(21, n1, n2);
+		LabBinarySearchTree<Integer> binaryTree = new LabBinarySearchTree<Integer>(root);
 		
+		//TREE BUILD
 		System.out.println("                      " + binaryTree.find(root, root.value).value);
 		System.out.println("\n");
 		System.out.println("          " + n1.value + "                    " + n2.value);
@@ -54,6 +55,8 @@ public class TestMain {
 		System.out.println("     " + n3.value + "         " + n4.value + "          " + n5.value + "        " + n6.value);
 		System.out.println("\n");
 		System.out.println("                       " + n7.value + "      " + n8.value);
+		System.out.println("****************************************************************");
+		System.out.println(binaryTree.findParent(n2).value);
 	}
 
 }

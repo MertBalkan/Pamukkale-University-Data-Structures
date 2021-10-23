@@ -67,7 +67,7 @@ public class LabBinarySearchTree<T extends Comparable<T>> extends BinarySearchTr
                 findParent(kok);
             }
         }
-        return node;
+        return kok;
         
     }
 
