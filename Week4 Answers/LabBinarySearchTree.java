@@ -1,3 +1,5 @@
+import com.sun.org.apache.bcel.internal.classfile.Node;
+
 public class LabBinarySearchTree<T extends Comparable<T>> extends BinarySearchTree<T> {
     public LabBinarySearchTree(){
         //Bu metodu deðiþtirmeyin
@@ -49,25 +51,23 @@ public class LabBinarySearchTree<T extends Comparable<T>> extends BinarySearchTr
     public BTNode<T> findParent(BTNode<T> node) {
         //WORK IN PROGRESS**************************
         if(node == null) return null;
-        BTNode<T> kok = find(getRoot(), node.value);
         
-                
-        if(kok == null) return null;
+
+        BTNode<T> nodeWay = getRoot();
         
-        if(kok.value.compareTo(node.value) < 0){
-            while(kok.right != null)
-            {
-                kok = kok.right;
-                findParent(kok);    
-            }
-        }else if(kok.value.compareTo(node.value) > 0){
-            while(kok.left != null){
+        if(node.value.compareTo(getRoot().value) == 0) return null;
         
-                kok = kok.left;
-                findParent(kok);
-            }
+        if(node.value.compareTo(nodeWay.value) < 0)
+        {
+            nodeWay = nodeWay.left;
+            findParent(node.left);
+        }else if(node.value.compareTo(nodeWay.value) > 0)
+        {
+            nodeWay = nodeWay.right;
+            findParent(node.right);
         }
-        return kok;
+        
+        return nodeWay;
         
     }
 
