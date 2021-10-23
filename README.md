@@ -20,15 +20,6 @@ Feel Free To Use!
 <ul><p>I added my Data Structers Lab answers</p></ul>
 </li>
 
-</td>
-<td>
-<h2> Notes </h2>
-<li>
-<ul><p>I added my notes as a pictures or text type.</p></ul>
-</li>
-</td>
-</td>
-
 </table>
 
 <table>
@@ -49,6 +40,15 @@ Feel Free To Use!
 <ul><p><a href = "https://www.youtube.com/c/Sadievrenseker_BK">Sadi Evren Seker</p></ul>
 <ul><p><a href = "https://www.cs.usfca.edu/~galles/visualization/AVLtree.html">Click Here For AVL Tree Practice</p></ul>
 </li>
+</td>
+
+</td>
+<td>
+<h2> Notes </h2>
+<li>
+<ul><p>I added my notes as a pictures or text type.</p></ul>
+</li>
+</td>
 </td>
 
 </tr>
