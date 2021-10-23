@@ -1,9 +1,8 @@
 # Pamukkale-University-Data-Structures
+
 Pamukkale University Data Structures Codes
 
 Feel Free To Use!
-
-
 
 <h1> <b>Content</b></h1>
 
@@ -40,12 +39,11 @@ Feel Free To Use!
 </li>
 </td>
 
-
 <td>
 <h2> TEST FOLDER!</h2>
-<p>You can do ur test in here easily!</p>
 <li>
-<ul></ul>
+<ul>
+<p>You can do ur test in here easily!</p></ul>
 </li>
 </td>
 
