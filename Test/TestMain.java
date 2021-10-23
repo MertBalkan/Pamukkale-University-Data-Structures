@@ -3,8 +3,8 @@ public class TestMain {
 
 	public static void main(String[] args) {
 		//here do your tests
-		LinkedListTest();
-		//TreeTest();
+		//LinkedListTest();
+		TreeTest();
 
 	}
 	
