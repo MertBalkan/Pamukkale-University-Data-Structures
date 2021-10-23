@@ -29,17 +29,6 @@ Feel Free To Use!
 </td>
 </td>
 
-<td>
-<h2> Resources That I Use</h2>
-<p>I'll add more day-by-day</p>
-<li>
-<ul><p><a href = "https://www.geeksforgeeks.org/">GeekForGeeks</p></ul>
-<ul><p><a href = "https://www.youtube.com/c/Sadievrenseker_BK">Sadi Evren Seker</p></ul>
-<ul><p><a href = "https://www.cs.usfca.edu/~galles/visualization/AVLtree.html">Click Here For AVL Tree Practice</p></ul>
-</li>
-</td>
-
-</tr>
 </table>
 
 <table>
@@ -52,7 +41,19 @@ Feel Free To Use!
 </li>
 </td>
 </tr>
+<td>
+<h2> Resources That I Use</h2>
+<p>I'll add more day-by-day</p>
+<li>
+<ul><p><a href = "https://www.geeksforgeeks.org/">GeekForGeeks</p></ul>
+<ul><p><a href = "https://www.youtube.com/c/Sadievrenseker_BK">Sadi Evren Seker</p></ul>
+<ul><p><a href = "https://www.cs.usfca.edu/~galles/visualization/AVLtree.html">Click Here For AVL Tree Practice</p></ul>
+</li>
+</td>
+
+</tr>
 <table>
+
 <tr>
 <td>
 <h2> BONUS!</h2>
