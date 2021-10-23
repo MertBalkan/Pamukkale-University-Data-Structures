@@ -3,7 +3,8 @@ public class TestMain {
 
 	public static void main(String[] args) {
 		//here do your tests
-		LinkedListTest();
+		//LinkedListTest();
+		TreeTest();
 
 	}
 	
@@ -32,17 +33,25 @@ public class TestMain {
 	private static void TreeTest() {
 
 		LabBinarySearchTree<Integer> binaryTree = new LabBinarySearchTree<Integer>();
-		binaryTree.add(21);
-		binaryTree.add(10);
-		binaryTree.add(45);
-		binaryTree.add(4);
-		binaryTree.add(12);
-		binaryTree.add(36);
-		binaryTree.add(64);
-		binaryTree.add(25);
-		binaryTree.add(40);
+
+		BTNode<Integer> n7 = new BTNode<Integer>(25, null, null);
+		BTNode<Integer> n8 = new BTNode<Integer>(40, null, null);
+		BTNode<Integer> n4 = new BTNode<Integer>(12, null, null);
+		BTNode<Integer> n3 = new BTNode<Integer>(4, null, null);
+		BTNode<Integer> n5 = new BTNode<Integer>(36, n7, n8);
+		BTNode<Integer> n6 = new BTNode<Integer>(64, null, null);
+		BTNode<Integer> n1 = new BTNode<Integer>(10, n3, n4);
+		BTNode<Integer> n2 = new BTNode<Integer>(45, n5, n6);
 		
-		System.out.println(binaryTree.find(binaryTree.getRoot(), 36).value);
+		BTNode<Integer> root = new BTNode<Integer>(21, n1, n2);
+		
+		System.out.println("                      " + binaryTree.find(root, root.value).value);
+		System.out.println("\n");
+		System.out.println("          " + n1.value + "                    " + n2.value);
+		System.out.println("\n");
+		System.out.println("     " + n3.value + "         " + n4.value + "          " + n5.value + "        " + n6.value);
+		System.out.println("\n");
+		System.out.println("                       " + n7.value + "      " + n8.value);
 	}
 
 }
