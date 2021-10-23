@@ -56,7 +56,7 @@ public class TestMain {
 		System.out.println("\n");
 		System.out.println("                       " + n7.value + "      " + n8.value);
 		System.out.println("****************************************************************");
-		System.out.println(binaryTree.findParent(n2).value);
+		System.out.println(binaryTree.findParent(n1).value);
 	}
 
 }
