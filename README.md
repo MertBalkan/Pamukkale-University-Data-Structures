@@ -52,10 +52,13 @@ Feel Free To Use!
 </li>
 </td>
 </tr>
+<table>
+<tr>
 <td>
 <h2> BONUS!</h2>
 <li>
 <ul><p><a href = https://open.spotify.com/playlist/5CiELE7uK156sTnp62A7jA?si=46b09cc7dcaf45f2">My Coding Spotify List</p></ul>
 </li>
 </td>
+</tr>
 </table>
