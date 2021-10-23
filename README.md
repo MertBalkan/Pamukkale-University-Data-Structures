@@ -32,7 +32,7 @@ Feel Free To Use!
 
 <td>
 <h2> Resources That I Use</h2>
-<p><I'll add more day-by-day/p>
+<p>I'll add more day-by-day</p>
 <li>
 <ul><p><a href = "https://www.geeksforgeeks.org/">GeekForGeeks</p></ul>
 <ul><p><a href = "https://www.youtube.com/c/Sadievrenseker_BK">Sadi Evren Seker</p></ul>
@@ -40,10 +40,19 @@ Feel Free To Use!
 </li>
 </td>
 
+
+<td>
+<h2> TEST FOLDER!</h2>
+<p>You can do ur test in here easily!</p>
+<li>
+<ul></ul>
+</li>
+</td>
+
 <td>
 <h2> BONUS!</h2>
 <li>
-<ul><p><a href = https://open.spotify.com/playlist/5CiELE7uK156sTnp62A7jA?si=46b09cc7dcaf45f2">My Spotify List</p></ul>
+<ul><p><a href = https://open.spotify.com/playlist/5CiELE7uK156sTnp62A7jA?si=46b09cc7dcaf45f2">My Coding Spotify List</p></ul>
 </li>
 </td>
 
