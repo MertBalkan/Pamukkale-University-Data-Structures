@@ -1,12 +1,14 @@
-import com.sun.org.apache.bcel.internal.classfile.Node;
+import java.util.ArrayList;
 
 public class LabBinarySearchTree<T extends Comparable<T>> extends BinarySearchTree<T> {
+	private ArrayList<BTNode<T>> _myList;
     public LabBinarySearchTree(){
         //Bu metodu deðiþtirmeyin
     }
     public LabBinarySearchTree(BTNode<T> root) {
         //Bu metodu deðiþtirmeyin
         super(root);
+        _myList = new ArrayList<BTNode<T>>();
     }
 
     @Override
@@ -47,28 +49,33 @@ public class LabBinarySearchTree<T extends Comparable<T>> extends BinarySearchTr
         return node;
     }
 
+    public BTNode<T> myFindParent(BTNode<T> nodeWay, BTNode<T> search){
+    	_myList.add(nodeWay);
+    	 
+    	 //nodeway -> current value, search->item that we're looking for
+         if(search.value.compareTo(getRoot().value) == 0) return null;
+         //if node that we're looking for one of the child; return nodeWay!!!
+         if(search.value.compareTo(nodeWay.value) < 0)
+         {
+        	 return myFindParent(nodeWay.left, search);
+             
+         }else if(search.value.compareTo(nodeWay.value) > 0)
+         {
+             
+        	 return myFindParent(nodeWay.right, search);
+         }
+
+         return _myList.get(_myList.size() - 2);
+         
+         
+    }
     @Override
     public BTNode<T> findParent(BTNode<T> node) {
-        //WORK IN PROGRESS**************************
+        //WORK IN PROGRESS**************************	
         if(node == null) return null;
-        
 
-        BTNode<T> nodeWay = getRoot();
-        
-        if(node.value.compareTo(getRoot().value) == 0) return null;
-        
-        if(node.value.compareTo(nodeWay.value) < 0)
-        {
-            nodeWay = nodeWay.left;
-            findParent(node.left);
-        }else if(node.value.compareTo(nodeWay.value) > 0)
-        {
-            nodeWay = nodeWay.right;
-            findParent(node.right);
-        }
-        
-        return nodeWay;
-        
+        return myFindParent(getRoot(), node);
+       
     }
 
 }
