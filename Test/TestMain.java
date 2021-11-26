@@ -5,7 +5,10 @@ public class TestMain {
 		//here do your tests
 		//LinkedListTest();
 		//TreeTest();
-		TraversalTest();
+		//TraversalTest();
+		//BinaryHeapTest();
+		RotatorTest();
+		
 	}
 	
 	//WEEK 3
@@ -100,5 +103,31 @@ public class TestMain {
 	private static void BinaryHeapTest() {
 		
 	}
+	
+	private static void RotatorTest() {
 
+		BTNode<Integer> n7 = new BTNode<Integer>(25, null, null);
+		BTNode<Integer> n8 = new BTNode<Integer>(40, null, null);
+		BTNode<Integer> n4 = new BTNode<Integer>(12, null, null);
+		BTNode<Integer> n3 = new BTNode<Integer>(4, null, null);
+		BTNode<Integer> n5 = new BTNode<Integer>(36, n7, n8);
+		BTNode<Integer> n6 = new BTNode<Integer>(64, null, null);
+		BTNode<Integer> n1 = new BTNode<Integer>(10, n3, n4);
+		BTNode<Integer> n2 = new BTNode<Integer>(45, n5, n6);
+		
+		BTNode<Integer> root = new BTNode<Integer>(21, n1, n2);
+		LabBinarySearchTree<Integer> binaryTree = new LabBinarySearchTree<Integer>(root);
+		
+		//I didn't visualize this part... You can check the Lecturers note for theorical understand.
+		Rotator rotator = new Rotator();
+		
+		BTNode<Integer> rootleftRotate = rotator.solaDondur(root);
+		BTNode<Integer> rootRightRotate = rotator.sagaDondur(root);
+		BTNode<Integer> rootLeftRightRotate = rotator.solaSagaDondur(root);
+		BTNode<Integer> rootRightLeftRotate = rotator.sagaSolaDondur(root);
+		
+		System.out.println("Root Left Rotate: " + rootLeftRightRotate.value);
+		
+	}
+	
 }
