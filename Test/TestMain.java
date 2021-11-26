@@ -96,5 +96,9 @@ public class TestMain {
 		System.out.println("POSTORDER RESULT:" + postOrderedTreeNode);
 		
 	}
+	
+	private static void BinaryHeapTest() {
+		
+	}
 
 }
