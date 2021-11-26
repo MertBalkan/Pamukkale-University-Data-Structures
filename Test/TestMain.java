@@ -126,7 +126,6 @@ public class TestMain {
 		BTNode<Integer> rootLeftRightRotate = rotator.solaSagaDondur(root);
 		BTNode<Integer> rootRightLeftRotate = rotator.sagaSolaDondur(root);
 		
-		System.out.println("Root Left Rotate: " + rootLeftRightRotate.value);
 		
 	}
 	
