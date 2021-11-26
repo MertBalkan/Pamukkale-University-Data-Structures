@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * Islemler sınıfı içindeki 4 metodun yazılması istenmektedir
  */
-public class Islemler {
+public class Week2 {
     /**
      * Yığıtın elemnlarının sırasını tersine çevirir
      * @param s Tersine çevrilecek yığıt
@@ -175,7 +175,6 @@ public class Islemler {
             }else if(c=='('){
                 stack.push(c);
             }else{
-                ( 
                 result += c;
             }
         }
