@@ -4,15 +4,13 @@ public class SeperatedChainHash {
     public LinkedList<Integer>[] dizi;
 
     public SeperatedChainHash() {
-        //içerği değiştirmeyin
+      
         dizi=new LinkedList[23];
     }
     public SeperatedChainHash(int boyut) {
-        //içerği değiştirmeyin
         dizi=new LinkedList[boyut];
     }
     public int hash(int deger){
-        //içerği değiştirmeyin
         return deger%dizi.length;
     }
     public void ekle(int deger){
@@ -67,10 +65,10 @@ public class SeperatedChainHash {
         }
     
         
-        //bir dizinin 2 katının 1 fazlasına bak. Eger asal sayi bulursan yeni bir tane dizi olustur
+        //bir dizinin 2 katindan 1 fazlasina bak. Eger asal sayi bulursan yeni bir tane dizi olustur
         //olusturulan diziyi yukardaki dizinin ustune yaz
         
-        //yenidenOzetle metodunu yazınız //asal sayi
+        //yenidenOzetle metodunu yaz //asal sayi
         //tablo boyutunu asal sayi ile belirle.
         //bir sayinin asal olup olmadigini hesapla
     }
